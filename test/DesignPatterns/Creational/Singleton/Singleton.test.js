@@ -1,12 +1,13 @@
 var assert = require('assert');
 
-const Singleton = require('../../../../DesignPatterns/Creational/Singleton/Singleton.js');
+const SingletonInstance1 = require('../../../../DesignPatterns/Creational/Singleton/Singleton.js');
+const SingletonInstance2 = require('../../../../DesignPatterns/Creational/Singleton/Singleton.js');
 
 
 describe('Singleton class', function() {
-  describe('#indexOf()', function() {
-    it('should return -1 when the value is not present', function() {
-      assert.equal([1, 2, 3].indexOf(4), -1);
+  describe('#Equality of two Singleton instances()', function() {
+    it('SingletonInstance1 and SingletonInstance2 must be equal', function() {
+      assert.equal(SingletonInstance1, SingletonInstance2);
     });
   });
 });
