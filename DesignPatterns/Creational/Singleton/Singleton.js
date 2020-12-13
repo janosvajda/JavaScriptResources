@@ -1,18 +1,21 @@
 let instance = null
 
-class SingletonClass {
+/**
+ * Singleton class example.
+ */
+class Singleton {
 
   constructor() {
-    this.value = Math.random(100)
+    this.value = new Date().getTime();
   }
 
-  printValue() {
-    console.log(this.value)
+  getValue() {
+    return this.value;
   }
 
   static getInstance() {
     if (!instance) {
-      instance = new SingletonClass()
+      instance = new Singleton();
     }
   }
 }
