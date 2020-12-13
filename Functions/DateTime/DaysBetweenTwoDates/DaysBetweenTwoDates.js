@@ -2,7 +2,7 @@ class DaysBetweenTwoDates {
 
   /**
    * Converts date to UTC
-   * @param d
+   * @param date
    * @returns {number}
    */
   toUTC(date) {

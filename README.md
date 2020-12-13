@@ -24,4 +24,9 @@ Run these commands for testing them.
 
 # It contains examples for these algorithms
 
+# It contains examples for these functions
+
+1. `DaysBetweenTwoDates(date1, date2)` - It calculates days between two dates.
+
+
 
