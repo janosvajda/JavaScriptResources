@@ -1,0 +1,27 @@
+{
+  "name": "javascriptresources",
+  "version": "1.0.0",
+  "description": "JavaScript resources (design patterns, codes, documentations)",
+  "main": "index.js",
+  "scripts": {
+    "test": "test:unit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/janosvajda/JavaScriptResources.git"
+  },
+  "keywords": [
+    "JavaScript",
+    "Node",
+    "Node.js",
+    "design",
+    "patterns",
+    "documentations"
+  ],
+  "author": "Janos Vajda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/janosvajda/JavaScriptResources/issues"
+  },
+  "homepage": "https://github.com/janosvajda/JavaScriptResources#readme"
+}
