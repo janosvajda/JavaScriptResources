@@ -6,7 +6,9 @@ let instance = null
 class Singleton {
 
   constructor() {
-    this.value = new Date().getTime();
+    if (this.value === null) {
+      this.value = new Date().getTime(); //This is the same in each instance.
+    }
   }
 
   getValue() {
@@ -15,7 +17,10 @@ class Singleton {
 
   static getInstance() {
     if (!instance) {
-      instance = new Singleton();
+      instance = new Singleton(); //It creates a new instance if it does not exists.
     }
+    return instance;
   }
 }
+
+module.exports = Singleton;
