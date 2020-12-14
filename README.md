@@ -21,6 +21,7 @@ Run these commands for testing them.
 
 1. Singleton
 1. Simple factory
+1. Prototype
 
 # It contains examples for these algorithms
 
