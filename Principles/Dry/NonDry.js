@@ -1,5 +1,5 @@
 /**
- * Example of non Dry code.
+ * Example of non DRY code.
  */
 class Message {
 
