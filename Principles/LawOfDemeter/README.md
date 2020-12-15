@@ -7,3 +7,15 @@ The Law of Demeter (LoD) or principle of least knowledge is a design guideline f
 1. Only talk to your immediate friends.
 
 Source: https://en.wikipedia.org/wiki/Law_of_Demeter
+
+Examples:
+
+`BreakLawOfDemeter.js` shows an example for breaking this principle.
+
+`LawOfDemeter.js` gives an example how can you avoid breaking this principle. This example contains only one solutions. There are more solutions, but this might be the most understable.
+
+Testing of them. Run this command:
+
+`npm run test`
+
+or have a look its unit tests in the test/Principles/LawOfDemeter directory.
