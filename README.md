@@ -17,17 +17,20 @@ Run these commands for testing them.
 
 `npm run test`
 
-# It contains examples for these design patterns
+# Design patterns
 
 1. Singleton
 1. Simple factory
 1. Prototype
 
-# It contains examples for these algorithms
+# Algorithms
 
-# It contains examples for these functions
+# Functions
 
 1. `DaysBetweenTwoDates(date1, date2)` - It calculates days between two dates.
 
+# Principles
+
+1. Law of Demeter https://en.wikipedia.org/wiki/Law_of_Demeter
 
 
