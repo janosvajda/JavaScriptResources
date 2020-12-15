@@ -32,5 +32,6 @@ Run these commands for testing them.
 # Principles
 
 1. Law of Demeter https://en.wikipedia.org/wiki/Law_of_Demeter
+1. DRY https://en.wikipedia.org/wiki/Don%27t_repeat_yourself
 
 
