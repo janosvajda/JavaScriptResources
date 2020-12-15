@@ -8,7 +8,7 @@ Examples:
 
 `NonDry.js` shows an example for breaking this principle.
 
-`Dry.js` gives an example how can you avoid breaking this principle. This example contains only one solutions. There are more solutions, but this might be the most understable.
+`Dry.test.js` gives an example how can you avoid breaking this principle. This example contains only one solutions. There are more solutions, but this might be the most understable.
 
 Testing of them. Run this command:
 
